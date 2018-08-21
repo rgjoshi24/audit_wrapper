@@ -1,7 +1,6 @@
 #
 # Cookbook:: audit_wrapper
-# Recipe:: default
+# Recipe:: aide
 #
 # Copyright:: 2018, The Authors, All Rights Reserved.
-include_recipe 'audit'
-include_recipe 'audit_wrapper::aide'
+package 'aide'
